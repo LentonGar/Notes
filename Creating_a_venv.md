@@ -1,25 +1,25 @@
-# Navigate to your project directory or create new one
+## Navigate to your project directory or create new one
 cd my_project
 
-# Create a virtual environment - in this case named "venv" (the second)
+## Create a virtual environment - in this case named "venv" (the second)
 python3 -m venv venv
 
-# Activate the virtual environment (Linux/mac)
+## Activate the virtual environment (Linux/mac)
 source venv/bin/activate
 
-# Or on Windows:
+## Or on Windows:
 .\venv\Scripts\activate
 
-# Install dependencies
+## Install dependencies
 pip install requests
 
-# If a list of dependencies is available in a "requirements.txt" file:
+## If a list of dependencies is available in a "requirements.txt" file:
 pip install -r requirements.txt
 
-# Deactivate the virtual environment when done
+## Deactivate the virtual environment when done
 deactivate
 
-# Remember, so as to keep GH clean
+## Remember, so as to keep GH clean
 The virtual environment folder (e.g., venv/) to your .gitignore 
 file if you are using Git for version control, as you 
 don't need to version control the environment itself. In 
