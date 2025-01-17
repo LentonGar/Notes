@@ -1,23 +1,23 @@
 ## Navigate to your project directory or create new one
-cd my_project
+    cd my_project
 
 ## Create a virtual environment - in this case named "venv" (the second)
-python3 -m venv venv
+    python3 -m venv venv
 
 ## Activate the virtual environment (Linux/mac)
-source venv/bin/activate
+    source venv/bin/activate
 
 ## Or on Windows:
-.\venv\Scripts\activate
+    .\venv\Scripts\activate
 
 ## Install dependencies
-pip install requests
+    pip install requests
 
 ## If a list of dependencies is available in a "requirements.txt" file:
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ## Deactivate the virtual environment when done
-deactivate
+    deactivate
 
 ## Remember, so as to keep GH clean
 The virtual environment folder (e.g., venv/) to your .gitignore 
